@@ -1,13 +1,13 @@
 {% set name = "neighpy" %}
-{% set version = "0.1.9" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/neighpy-{{ version }}.tar.gz
-  sha256: 3fc19bccd411feb81762a2526210e2e5af5e438e77edead1b14211af687af495
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/neighpy-{{ version }}.tar.gz
+  sha256: ccb808279cdb08e161704446b730fc53c0ae8b3b73ddfeb6d23f939c3e7051e2
 
 build:
   noarch: python
